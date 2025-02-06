@@ -11,10 +11,10 @@ Inclination-only fold test
    [Tilt_Correction,Stepwise_Unfold] = ioft(filename)
    ```
 
-   and press Enter to run the function. Here, filename is the name of the data spreadsheet in string format, excluding the file extension. For example, if the data file is named ***data.xlsx***, you should enter 
+   and press Enter to run the function. Here, filename is the name of the data spreadsheet in string format, excluding the file extension. For example, if the data file is named ***test.xlsx***, you should enter 
 
    ```
-   [Tilt_Correction,Stepwise_Unfold] = ioft(‘data’)
+   [Tilt_Correction,Stepwise_Unfold] = ioft(‘test’)
    ```
 
 4. Upon successful execution, the program will generate three figures and two tables as outputs. Figure 1 displays the equal-area projection before and after tilt correction. Figure 2 shows the K values obtained from the stepwise unfolding of the entire dataset. Figure 3 presents the results of stepwise unfolding for each limb of the fold separately. In the MATLAB command window, two tables, **Tilt_Correction**, and **Stepwise_Unfold** will be output. Both tables will be saved in CSV format in the MATLAB working directory. The three figures can be saved manually by selecting **File** > **Export** in the figure window and choosing the desired format and location. 
